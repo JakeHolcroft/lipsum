@@ -20,7 +20,7 @@ export default function Home() {
 
     
       <Head>
-        <title>Lipsum.One</title>
+        <title>Lipsum.One | Simply one paragraph of Lorem Ipsum. | Lipsum generator</title>
         <meta name="description" content="Simply one paragraph of Lorem Ipsum." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
