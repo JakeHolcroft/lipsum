@@ -6,7 +6,7 @@ import { motion as m } from "framer-motion"
 
 import { GiDinosaurRex } from "react-icons/gi";
 import { useEffect } from 'react';
-
+import Script from 'next/script';
 const rubik = Rubik({ subsets: ['latin'] })
 
 export default function Home() {
@@ -14,8 +14,11 @@ export default function Home() {
 
 
 
+
   return (
     <>
+
+    
       <Head>
         <title>Lipsum.One</title>
         <meta name="description" content="Simply one paragraph of Lorem Ipsum." />
