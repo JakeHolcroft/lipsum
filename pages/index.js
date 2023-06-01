@@ -18,9 +18,10 @@ export default function Home() {
       </Head>
       <main className={rubik.className + " w-[100%] h-[100vh] overflow-hidden flex justify-center items-center"}>
        
-       <span  className='flex flex-row absolute top-[20px] left-[20px] text-xl text-[#303030]'><GiDinosaurRex size={30} color={"#eb4d4b"}></GiDinosaurRex> Lipsum.One</span>
+       <span  className='flex flex-row absolute top-[20px] left-[50%] translate-x-[-50%] text-xl md:text-2xl text-[#303030]'><GiDinosaurRex size={30} className="mr-[5px]" color={"#eb4d4b"}></GiDinosaurRex> Lipsum.One</span>
+       <span className='absolute top-[70px] opacity-75 text-lg italic'>Simply one paragraph of Lorem Ipsum.</span>
 
-       <p className={rubik.className + " w-[50%] text-2xl"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat vehicula malesuada. Sed quam arcu, sodales non eros et, euismod pretium turpis. Curabitur et mauris a magna cursus molestie eget sit amet nibh. Cras aliquet euismod metus a gravida. Cras vulputate augue eget rhoncus maximus. Morbi et sollicitudin odio. Fusce ut lorem luctus, aliquam mi eget, maximus felis. Maecenas auctor odio quis elementum auctor. Integer ante lectus, egestas eu auctor sit amet, pulvinar a tortor. In ut leo massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus justo dolor, suscipit a libero id, porttitor rhoncus mi. Quisque lobortis sapien ipsum, eget consequat nisl consequat quis. Nulla facilisi.</p>
+       <p className={rubik.className + " text-[#303030] mt-[20px] opacity-75 w-[75%] text-center md:w-[50%] text-md md:text-2xl"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat vehicula malesuada. Sed quam arcu, sodales non eros et, euismod pretium turpis. Curabitur et mauris a magna cursus molestie eget sit amet nibh. Cras aliquet euismod metus a gravida. Cras vulputate augue eget rhoncus maximus. Morbi et sollicitudin odio. Fusce ut lorem luctus, aliquam mi eget, maximus felis. Maecenas auctor odio quis elementum auctor. Integer ante lectus, egestas eu auctor sit amet, pulvinar a tortor. In ut leo massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus justo dolor, suscipit a libero id, porttitor rhoncus mi. Quisque lobortis sapien ipsum, eget consequat nisl consequat quis. Nulla facilisi.</p>
       </main>
     </>
   )
